@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "reactAppliCine",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "reactAppliCine"
+	}
+}

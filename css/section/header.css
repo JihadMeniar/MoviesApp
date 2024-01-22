@@ -1,0 +1,39 @@
+nav {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav .logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+nav .search {
+    display: flex;
+    gap: 15px;
+}
+
+nav .search input,
+nav .search button {
+    padding: 5px 15px;
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid;
+    color: var(--textColor);
+    background-color: var(--bgColor);
+}
+
+nav .search input {
+    min-width: 250px;
+}
+
+nav .search button {
+    cursor: pointer;
+}
